@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff8e1;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ff6f00;
+  padding: 15px 30px;
+  color: white;
+}
+
+header .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: url('/images/ganpati.jpg') no-repeat center center/cover;
+  color: white;
+}
+
+.gallery {
+  padding: 40px;
+  text-align: center;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.gallery-container img {
+  width: 250px;
+  border-radius: 10px;
+  border: 3px solid #ff9800;
+}
+
+.event {
+  padding: 40px;
+  text-align: center;
+  background: #ffe0b2;
+}
+
+#countdown {
+  font-size: 24px;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #d84315;
+}
+
+.donation {
+  padding: 40px;
+  text-align: center;
+  background: #fff3e0;
+}
+
+.donation button {
+  padding: 10px 20px;
+  background: #e65100;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact {
+  padding: 40px;
+  text-align: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  margin: auto;
+}
+
+.contact input, .contact textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #bf360c;
+  color: white;
+}
